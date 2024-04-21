@@ -1,5 +1,6 @@
 package tfar.purpleprison;
 
+import net.minecraft.resources.ResourceLocation;
 import tfar.purpleprison.platform.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
@@ -15,6 +16,8 @@ public class PurplePrisonStar {
     public static final String MOD_ID = "purpleprisonstar";
     public static final String MOD_NAME = "PurplePrisonStar";
     public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+
+    public static final ResourceLocation STAR = new ResourceLocation(MOD_ID,"textures/gui/star.png");
 
     public static void init() {
     }
